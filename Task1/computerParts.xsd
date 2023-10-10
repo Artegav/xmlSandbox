@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="computerParts" type="computerPartsType"/>
+  <xs:complexType name="partType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element name="capacity" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:short">
+            <xs:enumeration value="500"/>
+            <xs:enumeration value="1000"/>
+            <xs:enumeration value="256"/>
+            <xs:enumeration value="128"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:short" name="price"/>
+    </xs:sequence>
+    <xs:attribute type="xs:byte" name="quantity" use="optional"/>
+    <xs:attribute type="xs:string" name="onsale" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="categoryType">
+    <xs:sequence>
+      <xs:element type="partType" name="part" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="name" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="computerPartsType">
+    <xs:sequence>
+      <xs:element type="categoryType" name="category" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<computerParts>
+    <part quantity="12" onSale="true">
+        <category>CPU</category>
+        <name>Intel Core i3</name>
+        <price>45</price>
+    </part>
+    <part quantity="0" onSale="false">
+        <category>CPU</category>
+        <name>Intel Core i5</name>
+        <price>60</price>
+    </part>
+    <part quantity="8" onSale="true">
+        <category>CPU</category>
+        <name>Intel Core i9</name>
+        <price>100</price>
+    </part>
+    <part quantity="20" onSale="true">
+        <category>CPU</category>
+        <name>AMD Ryzen 5</name>
+        <price>50</price>
+    </part>
+    <part quantity="1" onSale="false">
+        <category>CPU</category>
+        <name>AMD Ryzen 9</name>
+        <price>90</price>
+    </part>
+    <part quantity="100" onSale="true">
+        <category>SSD</category>
+        <name>Samsung</name>
+        <price>100</price>
+        <capacity>500</capacity>
+    </part>
+    <part quantity="70" onSale="true">
+        <category>SSD</category>
+        <name>Kingston</name>
+        <price>230</price>
+        <capacity>1000</capacity>
+    </part>
+    <part quantity="98" onSale="true">
+        <category>SSD</category>
+        <name>Crucial</name>
+        <price>79</price>
+        <capacity>256</capacity>
+    </part>
+    <part quantity="0" onSale="false">
+        <category>SSD</category>
+        <name>HP</name>
+        <price>76</price>
+        <capacity>128</capacity>
+    </part>
+    <part quantity="31" onSale="true">
+        <category>SSD</category>
+        <name>Transcend</name>
+        <price>88</price>
+        <capacity>256</capacity>
+    </part>
+    <part quantity="0" onSale="false">
+        <category>Mouse</category>
+        <name>Logitech</name>
+        <price>20</price>
+    </part>
+    <part quantity="10" onSale="true">
+        <category>Mouse</category>
+        <name>Microsoft</name>
+        <price>15</price>
+    </part>
+    <part quantity="20" onSale="true">
+        <category>Mouse</category>
+        <name>HP</name>
+        <price>10</price>
+    </part>
+    <part quantity="30" onSale="true">
+        <category>Mouse</category>
+        <name>Lenovo</name>
+        <price>12</price>
+    </part>
+    <part quantity="40" onSale="true">
+        <category>Mouse</category>
+        <name>Apple</name>
+        <price>99</price>
+    </part>
+</computerParts>

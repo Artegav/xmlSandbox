@@ -1,0 +1,13 @@
+<!DOCTYPE computerParts [
+        <!ELEMENT computerParts (category)*>
+        <!ELEMENT category (part)*>
+        <!ATTLIST category
+                name CDATA #REQUIRED>
+        <!ELEMENT part (name|price|capacity)*>
+        <!ATTLIST part
+                onsale CDATA #REQUIRED
+                quantity CDATA #REQUIRED>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT capacity (#PCDATA)>
+        ]>

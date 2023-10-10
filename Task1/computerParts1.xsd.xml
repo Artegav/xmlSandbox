@@ -1,0 +1,11 @@
+<computerParts>
+  <!--Zero or more repetitions:-->
+  <category name="string">
+    <!--Zero or more repetitions:-->
+    <part quantity="3" onsale="false">
+      <name>string</name>
+      <capacity>3</capacity>
+      <price>1000.00</price>
+    </part>
+  </category>
+</computerParts>
